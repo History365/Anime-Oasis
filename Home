@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anime Oasis</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav {
+        background-color: #444;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .show {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+    }
+    .show img {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Anime Oasis</h1>
+</header>
+
+
+<div class="container">
+    <div class="show">
+        <a href="https://sites.google.com/view/anime-oasis/naruto" target="_blank"><img src="https://www.movieposters.com/cdn/shop/files/M4325_533x.jpg?v=1699386191" alt="Naruto"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show2" target="_self"><img src="https://m.media-amazon.com/images/M/MV5BNGM0YTk3MWEtN2JlZC00ZmZmLWIwMDktZTMxZGE5Zjc2MGExXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="Show 2"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show3" target="_self"><img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/07/one-piece-franchise-poster.jpg" alt="Show 3"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show4" target="_self"><img src="https://m.media-amazon.com/images/I/71ZxVE+dYXL._AC_UF1000,1000_QL80_.jpg" alt="Show 4"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show5" target="_self"><img src="show5.jpg" alt="Show 5"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show6" target="_self"><img src="show6.jpg" alt="Show 6"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show7" target="_self"><img src="show7.jpg" alt="Show 7"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show8" target="_self"><img src="show8.jpg" alt="Show 8"></a>
+    </div>
+    <div class="show">
+        <a href="https://example.com/show9" target="_self"><img src="show9.jpg" alt="Show 9"></a>
+    </div>
+</div>
+
+</body>
+</html>
